@@ -1,0 +1,51 @@
+/*aspectos generales: bordes y color de fondo de calculadora*/
+.calculadora {
+    border: 3px black ridge;
+    text-align: center;
+    display:block;
+    margin:0 auto;
+    padding:20px;
+    width:220px;
+    height:380px;
+    border-radius: 15px;
+    background-color:yellow;
+
+
+}
+
+/*pantalla de visualización: bordes, posición, color de fondo, estilo letra.*/
+#textoPantalla {
+    width: 210px;
+    height: 30px;
+    border: 2px black solid;
+    text-align: right;
+    position: relative;
+    padding: 5px 5px;
+    background-color: white;
+    font-family: "courier new";
+    overflow: hidden;}
+
+/*botones normales: anchura y margen*/
+.calculadora [type=button] { width: 45px; padding: 0;  }
+/*botones especiales*/
+.calculadora input.largo { color:#2f4eab; width:45px; }
+
+
+.calculadora td button{
+  display:block;
+  width:70px;
+  height: 70px;
+  font-size: 25px;
+}
+#resultado{
+  display:block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  width:300px;
+  height: 100px;
+  line-height: 100px;
+  background-color:#fff;
+  border-radius: 25px;
+  overflow-y: scroll;
+}
